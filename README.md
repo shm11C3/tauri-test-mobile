@@ -8,14 +8,23 @@
   - Node.js
   - Rust
   - Android Studio
+    - Android SDK
+    - Android NDK
+      - [File] > [Project Structure] > [SDK Location]
 
 ## 環境変数の設定
 
-https://beta.tauri.app/guides/prerequisites/#android
+### Windows
 
-## コマンド
+`$env:SDK_HOME="$env:LocalAppData\Android\Sdk"`
 
-https://beta.tauri.app/2/reference/cli/#android
+`$env:NDK_HOME="$env:LocalAppData\Android\Sdk\ndk\25.0.8775105"`
+
+## 参考リンク
+
+- [環境構築](https://beta.tauri.app/guides/prerequisites/#android)
+
+- [コマンド](https://beta.tauri.app/2/reference/cli/#android)
 
 ## Recommended IDE Setup
 
