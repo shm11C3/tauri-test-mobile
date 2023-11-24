@@ -20,7 +20,7 @@
 
 `$env:SDK_HOME="$env:LocalAppData\Android\Sdk"`
 
-`$env:NDK_HOME="$env:LocalAppData\Android\Sdk\ndk-bundle"`
+`$env:NDK_HOME="$env:LocalAppData\Android\Sdk\ndk-bundle"` [TODO] NDK のパスが正しくなさそうなので調査する
 
 ## 参考リンク
 
