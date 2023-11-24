@@ -6,11 +6,13 @@
 
 - 以下の環境が整っていること
   - Node.js
+    - `Node.js 18=<`
   - Rust
+    - `rustc 1.67=<`
   - Android Studio
     - Android SDK
     - Android NDK
-      - [File] > [Project Structure] > [SDK Location]
+      - Setting: [File] > [Project Structure] > [SDK Location]
 
 ## 環境変数の設定
 
@@ -18,7 +20,7 @@
 
 `$env:SDK_HOME="$env:LocalAppData\Android\Sdk"`
 
-`$env:NDK_HOME="$env:LocalAppData\Android\Sdk\ndk\25.0.8775105"`
+`$env:NDK_HOME="$env:LocalAppData\Android\Sdk\ndk-bundle"`
 
 ## 参考リンク
 
