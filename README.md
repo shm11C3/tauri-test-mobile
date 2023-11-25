@@ -12,7 +12,8 @@
   - Android Studio
     - Android SDK
     - Android NDK
-      - Setting: [File] > [Project Structure] > [SDK Location]
+      - [Setup Android NDK](https://developer.android.com/studio/projects/install-ndk)
+  - (Windows) : [Active Developer Mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development)
 
 ## 環境変数の設定
 
@@ -20,7 +21,7 @@
 
 `$env:SDK_HOME="$env:LocalAppData\Android\Sdk"`
 
-`$env:NDK_HOME="$env:LocalAppData\Android\Sdk\ndk-bundle"` [TODO] NDK のパスが正しくなさそうなので調査する
+`$env:NDK_HOME="$env:LocalAppData\Android\Sdk\ndk\26.1.10909125"`
 
 ## 参考リンク
 
